@@ -1,0 +1,81 @@
+.contact{
+    padding: 1rem 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cntHead{
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: 1.5rem;
+    color: white;
+}
+.cntbox{
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 580px;
+    min-width: 350px;
+}
+.inputBox{
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    width: 30rem; 
+    max-width: 100%; 
+    box-sizing: border-box;
+}
+.sendbtn{
+    margin-top: 0.5rem;
+    width: 30rem; /* Use percentage instead of fixed width */
+    max-width: 100%; /* Add a max-width to prevent it from becoming too wide */
+    box-sizing: border-box;
+    background-color: #047fa8;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    font-weight: 500;
+    color: white;
+}
+.namef{
+    color: white;
+    font-size: 1.2rem;
+}
+.logosect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.flogo,.slogo{
+    font-size: 2rem;
+    background-color: #066fa0;
+    background-color: #fff;
+}
+.flogo{
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+}
+.slogo{
+    border-radius: 50%;
+    padding:  0.2rem;
+    font-size: 2.3rem;
+}
+.footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@media only screen and (max-width: 890px) {
+    .contact{
+        padding: 0rem 5rem;
+      }
+}

@@ -1,0 +1,67 @@
+.skills{
+    color: white;
+    max-width: 70rem;
+    margin: 0 auto;
+    /* padding: 0rem auto;
+    max-width: 65rem; */
+}
+.skillsHead{
+    padding-top: 2rem;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.skillsHead1{
+    font-size: 1.7rem;
+    padding: 1.7rem;
+    color:  rgb(224, 224, 224);
+}
+.skillsHead2{
+    padding-top: 2rem;
+    color:  rgb(224, 222, 222);
+}
+.techlogo{
+    height: 80px;
+    width: 100px;
+}
+.skilltxt{
+    font-size: 1.2rem;
+}
+.skillsSect1,.skillsSect2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.skills1,.skills2{
+    border: 0.8px solid rgba(3, 178, 201, 0.881);
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1.3rem;
+    box-shadow: 0 0 22px rgb(0, 79, 110);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.skills2:hover {
+    box-shadow: 0 0 22px rgb(0, 79, 110);
+}
+.othrlogo{
+    height: 80px;
+    width: 90px;
+}
+.skillsSect2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 2rem;
+}
+.skillsHead2{
+    font-size: 1.7rem;
+}
+@media only screen and (max-width: 1100px) {
+    .skills{
+        padding: 0rem 3rem;
+    }
+  }

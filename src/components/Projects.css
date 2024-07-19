@@ -1,0 +1,105 @@
+.projects{
+    padding: 0rem 14rem;
+    color: white;
+}
+.projectsHead{
+    padding: 2rem 0rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.projectSect{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.eachProject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    gap: 2rem;
+    padding: 1.8rem 11.5rem;
+    width: 22rem;
+    transition: all 0.7s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgb(17, 7, 27);
+}
+.eachProject:hover{
+    transform: translateY(-12px);
+    background-color: rgba(16, 7, 26, 0.895);
+    box-shadow: 0 0px 47px rgba(0, 0, 0, 0.47);
+}
+.projectImg{
+    width: 20rem;
+    height: 12rem;
+    border-radius: 0.8rem;
+}
+.projectTech{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding-top:0.9rem;
+    padding-bottom: 0.6rem;
+}
+.tech{
+    padding: 0.1rem 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 0.7rem;
+    /* background-color: #096a8b70; */
+    border: 0.1px solid  #00a4ea64;
+    /* background-color: rgba(21, 7, 36, 0.689);
+    color:  white; */
+    /* background-color: #221033; */
+    background-color: #1a0c28;
+    color: rgba(245, 245, 245, 0.637);
+    outline: none;
+}
+.projectAbt{
+    width: 20rem;
+    padding-top: 0.8rem;
+    font-size: 1.2rem;
+    color: rgba(245, 245, 245, 0.443);
+}
+.projectHead{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(197, 194, 194);
+    font-weight: 500;
+}
+.btnText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+}
+.cdbtn,.appbtn{
+    border-radius: 0.4rem;
+    width: 9.7rem;
+    padding: 0.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.appbtn{
+    background-color: #046f93;
+}
+.appbtn:hover{
+    background-color: #046282;
+}
+.cdbtn{
+    background-color: rgba(50, 45, 69, 0.26);
+    border:1px solid #e4e4e410;
+}
+.cdbtn:hover{
+    background-color:#03779ebb;
+}
+@media only screen and (max-width: 1200px) {
+    .projects{
+        padding: 0rem 3rem;
+    }
+  }

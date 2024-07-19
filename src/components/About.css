@@ -1,0 +1,66 @@
+.abttxt{
+    /* max-width: 78rem;
+    margin: 0rem auto 0rem auto; */
+    padding: 0rem 14rem;
+    color: white;
+}
+.abtContent{
+    margin: 0 auto;
+    max-width: 75rem;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    color: rgba(245, 245, 245, 0.806);
+}
+.abtHead{
+    padding-bottom: 2.2rem;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.abtHead1{
+    padding: 2.2rem;
+    font-size: 1.7rem;
+}
+.eachProfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    max-width: 80rem;
+}
+.box1{
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.custom-bg-blue {
+    background-color: #7bd6f5;
+}
+@media only screen and (max-height: 700px) {
+    .abtHead{
+      margin-top: 300px;
+    }
+  }
+  @media only screen and (max-height: 680px) {
+    .abtHead{
+      margin-top: 370px;
+    }
+  }
+@media only screen and (max-width: 890px) {
+    .abttxt{
+        margin-top: 25rem;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .abttxt{
+      padding: 0rem 5rem;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .abttxt{
+      padding: 0rem 3rem;
+    }
+  }
+  @media only screen and (max-width: 890px) {
+    .box1{
+        min-width: 18rem;
+    }
+  }

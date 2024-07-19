@@ -1,0 +1,148 @@
+.intro{
+    top:10rem;
+    padding: 0rem 14rem;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.profile{
+    border-radius: 50%;
+    height: 55vh;
+}
+ .introContent{
+  padding: 20px;
+ }
+.introText,.introAbout{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.introPara{
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-top: 0.8rem ;
+    margin-bottom: 1rem;
+    word-spacing: 0.3rem;
+}
+.introtxt{
+    font-size: 1.6rem;
+    max-width: 40rem;
+    margin-bottom: 2rem;
+}
+.resume{
+    padding: 1.1rem 1.4rem;
+    border-radius: 2.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgba(14, 10, 29, 0.922);
+    outline: none;
+    border: 1px solid rgb(54, 53, 53);
+}
+.highlt{
+    color: #7bd6f5;
+    color: #07a8de;
+    padding-left: 0.5rem;
+    font-size: 2.8rem;
+}
+  .resume {
+    position: relative;
+    color: white;
+    border: 2px solid transparent; 
+    background-color: #007ea8;
+    overflow: hidden; 
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+  }
+  
+  .resume:hover {
+    background-color:rgba(24, 17, 49, 0.559);
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .resume::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #7bd6f5;  
+    transition: left 0.3s ease;
+    z-index: 0; 
+  }
+  
+  .resume:hover::before {
+    left: 100%; 
+  }
+  
+  .resume span {
+    position: relative;
+    z-index: 1; 
+  }
+  @media only screen and (max-width: 890px) {
+    .intro{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    span .highlt{
+      font-size: 2.3rem;
+    }
+    .profile{
+      padding: 2rem;
+      margin-bottom: 5rem;
+    }
+    .introText,.introAbout{
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+    .introPara{
+      font-size: 2.5rem;
+      font-weight: 500;
+      margin-top: 0.8rem ;
+      margin-bottom: 1rem;
+      word-spacing: 0.3rem;
+    }
+    .introtxt{
+      font-size: 1.5rem;
+      max-width: 40rem;
+      margin-bottom: 2rem;
+    }
+    .highlt{
+      font-size: 3rem;
+    }
+    .resume {
+      padding: 0.9rem 1.2rem;
+      border-radius: 2.3rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-left: 12rem;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .resume {
+      margin-left: 10rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .resume {
+      margin-left: 8rem;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .resume {
+      margin-left: 4rem;
+    }
+  }
+  @media only screen and (max-width: 440px) {
+    .resume {
+      margin-left: 1rem;
+    }
+  }
+  @media only screen and (max-width: 1300px) {
+    .intro{
+      padding: 0rem 3rem;
+    }
+  }
