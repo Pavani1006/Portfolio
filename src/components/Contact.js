@@ -2,7 +2,7 @@ import React,{useRef} from 'react'
 import emailjs from '@emailjs/browser';
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { FaLinkedinIn } from "react-icons/fa";
-import git from '../assets/git.png'
+import { FaLocationDot } from "react-icons/fa6";
 import './Contact.css'
 const Contact = () => {
   const form = useRef();
@@ -35,7 +35,11 @@ const Contact = () => {
           <a href='https://www.linkedin.com/in/pavani-vallem-73a603255/'><FaLinkedinIn className='flogo' /></a>
           <a href='https://github.com/Pavani1006'><TbBrandGithubFilled className='slogo' /></a>
           </div>
-          <p className='namef'>@ Pavani Vallem</p>
+          <div className='locatsect'>
+           <FaLocationDot className='locat' />
+           <p >Gopalapatnam, Visakhapatnam, AndhraPradesh</p>
+          </div>
+          <div className='namef' ><p >&copy; {new Date().getFullYear()} Pavani Vallem. All rights reserved</p></div>
         </div>
     </div>
   )

@@ -46,13 +46,26 @@
 }
 .namef{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logosect{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+}
+.locatsect{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+.locat{
+    font-size: 1.5rem;
 }
 .flogo,.slogo{
     font-size: 2rem;
@@ -72,10 +85,14 @@
     padding: 4rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
-@media only screen and (max-width: 890px) {
+@media screen and (max-width: 890px) {
     .contact{
         padding: 0rem 5rem;
+      }
+      .locat{
+        color: white;
+        font-size: 1.9rem;
       }
 }
