@@ -15,11 +15,11 @@
   padding: 20px;
  }
 .introText,.introAbout{
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     font-weight: 500;
 }
 .introPara{
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-top: 0.8rem ;
     margin-bottom: 1rem;
@@ -44,7 +44,7 @@
     color: #7bd6f5;
     color: #07a8de;
     padding-left: 0.5rem;
-    font-size: 2.6rem;
+    font-size: 2.5rem;
 }
   .resume {
     position: relative;
