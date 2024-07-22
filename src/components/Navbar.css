@@ -37,7 +37,7 @@
 .listItem {
   font-size: 1.3rem;
   position: relative; 
-  padding-bottom: 2px; /* Space for the underline */
+  padding-bottom: 2px; 
 }
 
 .listItem::after {

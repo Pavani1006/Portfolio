@@ -34,8 +34,8 @@
 }
 .sendbtn{
     margin-top: 0.5rem;
-    width: 30rem; /* Use percentage instead of fixed width */
-    max-width: 100%; /* Add a max-width to prevent it from becoming too wide */
+    width: 30rem; 
+    max-width: 100%;
     box-sizing: border-box;
     background-color: #047fa8;
     padding: 0.8rem;
