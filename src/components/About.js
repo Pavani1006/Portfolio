@@ -19,18 +19,18 @@ const About = () => {
         </div>
         <div className='profilelink'>
           <div className='eachProfile'>
-      <div className=" w-1/4 p-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
+      <div className=" w-1/4 pt-4 pb-4 pl-6 pr-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
         <div className="flex flex-col items-center">
           <img className="w-full h-32 object-contain rounded-lg mb-4" src={cc} alt="logo" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
             Code Chef
           </h5>
-          <p className="mb-3 text-lg font-normal text-gray-700 dark:text-gray-400 text-center">
+          <p className="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400 text-center">
             Highest Rating: 1500
           </p>
           <a
             href="https://www.codechef.com/users/pavani_2004"
-            className="inline-flex items-center px-3 py-2 text-lg font-normal text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-normal text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             style={{ backgroundColor: '#028cba',color: 'white' }}
           >
             View Profile
@@ -52,18 +52,18 @@ const About = () => {
           </a>
         </div>
       </div>
-      <div className="w-1/4 p-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
+      <div className="w-1/4 pt-4 pb-4 pl-6 pr-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
         <div className="flex flex-col items-center">
           <img className="w-full h-32 object-contain rounded-lg mb-4" src={lt} alt="logo" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
             Leet Code
           </h5>
-          <p className="mb-3 text-lg font-normal text-gray-700 dark:text-gray-400 text-center">
+          <p className="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400 text-center">
             Highest Rating: 1532
           </p>
           <a
             href="https://leetcode.com/u/pavani_999/"
-            className="inline-flex items-center px-3 py-2 text-lg font-normal text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-normal text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
              style={{ backgroundColor: '#028cba',color: 'white' }}
           >
             View Profile
@@ -85,18 +85,18 @@ const About = () => {
           </a>
         </div>
       </div>
-      <div className="w-1/4 p-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
+      <div className="w-1/4 pt-4 pb-4 pl-6 pr-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
         <div className="flex flex-col items-center">
           <img className="w-full h-32 object-contain rounded-lg mb-4" src={hk} alt="logo" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
             Hacker Rank
           </h5>
-          <p className="mb-3 text-lg font-normal text-gray-700 dark:text-gray-400 text-center">
+          <p className="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400 text-center">
             Earned 3 Badges
           </p>
           <a
             href="https://www.hackerrank.com/profile/pavanivallem"
-            className="inline-flex items-center px-3 py-2 text-lg font-normal text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-3 py-2 text-sm font-normal text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             style={{ backgroundColor: '#028cba',color: 'white' }}
           >
             View Profile

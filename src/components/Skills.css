@@ -8,8 +8,10 @@
     font-size: 2.3rem;
     font-weight: 700;
 }
+.skillsHead1,.skillsHead2{
+    font-size: 1.5rem;
+}
 .skillsHead1{
-    font-size: 1.7rem;
     padding: 1.7rem;
     color:  rgb(224, 224, 224);
 }
@@ -55,9 +57,7 @@
     gap: 5rem;
     padding-top: 2rem;
 }
-.skillsHead2{
-    font-size: 1.7rem;
-}
+
 @media only screen and (max-width: 1100px) {
     .skills{
         padding: 0rem 3rem;
