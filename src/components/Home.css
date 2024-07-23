@@ -1,5 +1,5 @@
 .intro{
-    top:8rem;
+    top:9rem;
     padding: 0rem 12rem;
     height: 100vh;
     position: relative;
@@ -31,7 +31,7 @@
     margin-bottom: 2rem;
 }
 .resume{
-    padding: 1.1rem 1.4rem;
+    padding: 1rem 1.3rem;
     border-radius: 2.5rem;
     font-size: 1.3rem;
     font-weight: 500;
@@ -44,7 +44,7 @@
     color: #7bd6f5;
     color: #07a8de;
     padding-left: 0.5rem;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
 }
   .resume {
     position: relative;
