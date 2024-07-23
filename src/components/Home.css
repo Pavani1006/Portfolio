@@ -8,6 +8,7 @@
     color: white;
 }
 .profile{
+  margin-top: 2rem;
     border-radius: 50%;
     height: 50vh;
 }
@@ -119,6 +120,9 @@
       font-size: 1.2rem;
       font-weight: 500;
       margin-left: 12rem;
+    }
+    .profile{
+      margin-top: 0rem;
     }
   }
   @media only screen and (max-width: 700px) {

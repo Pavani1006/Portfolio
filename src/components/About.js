@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <div className='profilelink'>
           <div className='eachProfile'>
-      <div className="max-w-xs w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
+      <div className=" w-1/4 p-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
         <div className="flex flex-col items-center">
           <img className="w-full h-32 object-contain rounded-lg mb-4" src={cc} alt="logo" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
@@ -52,7 +52,7 @@ const About = () => {
           </a>
         </div>
       </div>
-      <div className="max-w-xs w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
+      <div className="w-1/4 p-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
         <div className="flex flex-col items-center">
           <img className="w-full h-32 object-contain rounded-lg mb-4" src={lt} alt="logo" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
@@ -85,7 +85,7 @@ const About = () => {
           </a>
         </div>
       </div>
-      <div className="max-w-xs w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
+      <div className="w-1/4 p-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 box1">
         <div className="flex flex-col items-center">
           <img className="w-full h-32 object-contain rounded-lg mb-4" src={hk} alt="logo" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
