@@ -4,7 +4,7 @@ import bg1 from '../assets/bg2.jpeg';
 import './Home.css';
 
 const Home = () => {
-  const driveLink = "https://drive.google.com/file/d/1EPl64fd3SfYhl6EvdNxN73xo30HveOmz/view?usp=drivesdk";
+  const driveLink ="https://drive.google.com/file/d/1EPl64fd3SfYhl6EvdNxN73xo30HveOmz/view?usp=drivesdk";
 
   const handleClick = () => {
     window.open(driveLink, '_blank', 'noopener,noreferrer');
